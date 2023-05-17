@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="12dp"
+    android:backgroundTint="@color/white"
+    android:elevation="6dp"
+    android:background="@drawable/your_rounded_shape"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/characterName"
+            android:textAlignment="textEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="RealName"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+    <TextView
+        android:id="@+id/characterRealName"
+        android:layout_width="match_parent"
+        android:textAlignment="textEnd"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Team"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+    <TextView
+        android:id="@+id/characterTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="FirstAppearance"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+    <TextView
+        android:id="@+id/characterFirstAppearance"
+        android:layout_width="match_parent"
+        android:textAlignment="textEnd"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="CreatedBy"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    <TextView
+        android:id="@+id/characterCreatedBy"
+        android:layout_width="match_parent"
+        android:textAlignment="textEnd"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Publisher"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+    <TextView
+        android:id="@+id/characterPublisher"
+        android:layout_width="match_parent"
+        android:textAlignment="textEnd"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="ImageUrl"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+    <TextView
+        android:id="@+id/characterImageUrl"
+        android:layout_width="wrap_content"
+        android:textAlignment="textEnd"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Bio"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+    <TextView
+        android:id="@+id/characterBio"
+        android:textAlignment="textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
