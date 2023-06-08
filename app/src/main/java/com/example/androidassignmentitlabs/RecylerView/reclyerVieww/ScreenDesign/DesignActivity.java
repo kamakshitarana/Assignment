@@ -1,4 +1,4 @@
-package com.example.androidassignmentitlabs.RecylerView.ScreenDesign;
+package com.example.androidassignmentitlabs.RecylerView.reclyerVieww.ScreenDesign;
 
 import androidx.appcompat.app.AppCompatActivity;
 

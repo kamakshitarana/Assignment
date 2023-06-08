@@ -1,4 +1,4 @@
-package com.example.androidassignmentitlabs.RecylerView.recylerView.adapter;
+package com.example.androidassignmentitlabs.RecylerView.reclyerVieww.recylerView.adapter;
 
 import android.content.Context;
 import android.util.Log;
@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.androidassignmentitlabs.R;
-import com.example.androidassignmentitlabs.RecylerView.recylerView.ItemClickListener;
-import com.example.androidassignmentitlabs.RecylerView.recylerView.model.CharacterResponse;
+import com.example.androidassignmentitlabs.RecylerView.reclyerVieww.recylerView.ItemClickListener;
+import com.example.androidassignmentitlabs.RecylerView.reclyerVieww.recylerView.model.CharacterResponse;
 
 import java.util.ArrayList;
 import java.util.List;

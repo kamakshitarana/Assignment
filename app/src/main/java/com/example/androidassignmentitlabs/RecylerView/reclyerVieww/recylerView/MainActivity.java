@@ -1,4 +1,4 @@
-package com.example.androidassignmentitlabs.RecylerView.recylerView;
+package com.example.androidassignmentitlabs.RecylerView.reclyerVieww.recylerView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,9 +11,9 @@ import android.util.Log;
 import android.view.View;
 
 import com.example.androidassignmentitlabs.R;
-import com.example.androidassignmentitlabs.RecylerView.recylerView.Api.CharacterService;
-import com.example.androidassignmentitlabs.RecylerView.recylerView.model.CharacterResponse;
-import com.example.androidassignmentitlabs.RecylerView.recylerView.adapter.CharacterAdapter;
+import com.example.androidassignmentitlabs.RecylerView.reclyerVieww.recylerView.Api.CharacterService;
+import com.example.androidassignmentitlabs.RecylerView.reclyerVieww.recylerView.adapter.CharacterAdapter;
+import com.example.androidassignmentitlabs.RecylerView.reclyerVieww.recylerView.model.CharacterResponse;
 
 import java.util.List;
 

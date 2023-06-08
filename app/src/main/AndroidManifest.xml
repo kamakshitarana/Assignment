@@ -14,25 +14,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAssignmentItLabs"
         tools:targetApi="31">
-        <activity
-            android:name=".RecylerView.ScreenDesign.DesignActivity"
-            android:exported="true" >
 
+        <activity
+            android:name=".RecylerView.integration.CountryActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
-            android:name=".RecylerView.Click.ClickSendActivity"
+            android:name=".RecylerView.reclyerVieww.ScreenDesign.DesignActivity"
             android:exported="true">
         </activity>
+
         <activity
-            android:name=".RecylerView.recylerView.MainActivity"
+            android:name=".RecylerView.reclyerVieww.ClickSendActivity"
             android:exported="true">
-
-
+        </activity>
+        
+        <activity
+            android:name=".RecylerView.reclyerVieww.recylerView.MainActivity"
+            android:exported="true">
         </activity>
     </application>
 

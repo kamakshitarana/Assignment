@@ -1,4 +1,4 @@
-package com.example.androidassignmentitlabs.RecylerView.Click;
+package com.example.androidassignmentitlabs.RecylerView.reclyerVieww;
 
 import androidx.appcompat.app.AppCompatActivity;
 

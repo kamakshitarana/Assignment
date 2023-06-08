@@ -1,4 +1,4 @@
-package com.example.androidassignmentitlabs.RecylerView.recylerView.model;
+package com.example.androidassignmentitlabs.RecylerView.reclyerVieww.recylerView.model;
 import com.google.gson.annotations.SerializedName;
 
 

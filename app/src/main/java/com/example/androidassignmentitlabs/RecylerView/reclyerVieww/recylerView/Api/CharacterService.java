@@ -1,6 +1,6 @@
-package com.example.androidassignmentitlabs.RecylerView.recylerView.Api;
+package com.example.androidassignmentitlabs.RecylerView.reclyerVieww.recylerView.Api;
 
-import com.example.androidassignmentitlabs.RecylerView.recylerView.model.CharacterResponse;
+import com.example.androidassignmentitlabs.RecylerView.reclyerVieww.recylerView.model.CharacterResponse;
 
 import java.util.List;
 

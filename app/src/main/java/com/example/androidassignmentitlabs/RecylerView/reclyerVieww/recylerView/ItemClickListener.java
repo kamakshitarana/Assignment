@@ -1,4 +1,4 @@
-package com.example.androidassignmentitlabs.RecylerView.recylerView;
+package com.example.androidassignmentitlabs.RecylerView.reclyerVieww.recylerView;
 
 import android.view.View;
 
