@@ -1,8 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'androidx.navigation.safeargs'
-//    id 'androidx.navigation.safeargs.kotlin'
-
+//    id  'com.google.gms.google-services'
 }
 
 android {
@@ -11,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.androidassignmentitlabs"
-        minSdk 30
+        minSdk 21
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -32,7 +31,6 @@ android {
 }
 
 dependencies {
-
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
@@ -60,4 +58,11 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.10"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+    
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:32.1.1')
+    implementation 'com.google.firebase:firebase-core:20.0.0'
+
+    //realtimedatabase
+    implementation 'com.google.firebase:firebase-database-ktx'
 }
